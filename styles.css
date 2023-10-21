@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+html{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    background-color: #fdddf6;
+}
+.par{
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 80vw;
+    height: 30vh;
+    border: 2px solid black;
+    background-color: #dddada;
+    font-weight: 20px;
+    box-shadow: 20px 20px 10px  #dddada ;
+}
+
+.fields{
+    
+    display: grid;
+    height: 11em;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.inputs{
+    margin-top: 15px;
+    display: grid;
+    height: 10em;
+    
+    
+    
+    
+}
+input{
+    margin-bottom: 7px;
+}
+h1{
+    text-align: center;
+}
+
+
+
+
+span{
+    position: relative;
+    top: 10px;
+}
+
+.gender{
+    display: flex;
+}
+
+.gender input{
+    margin-top: -5px;
+}
+
