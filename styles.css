@@ -3,7 +3,10 @@ html{
     display: flex;
     justify-content: center;
     font-family: poppins;
-    background-color: #fdddf6;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 20px 15px lightblue;
+    
 }
 .par{
     
@@ -15,7 +18,7 @@ html{
     border: 2px solid black;
     background-color: #dddada;
     font-weight: 20px;
-    box-shadow: 20px 20px 10px  #dddada ;
+    box-shadow: 20px 15px 10px  black ;
 }
 
 .fields{
@@ -58,3 +61,70 @@ span{
     margin-top: -5px;
 }
 
+.acdiv{
+    
+    display: grid;
+    
+    border-radius: 10px;
+    width: 80vw;
+    height: 220px;
+    border: 2px solid black;
+    background-color: #dddada;
+    font-weight: 20px;
+    box-shadow: 20px 20px 10px  black ;
+}
+
+.edu{
+    font-size: 0.7rem;
+   display: flex;
+    height: 50px;
+    width: 80vw;
+    
+
+
+}
+.collegeinp{
+  height: 25px;
+  width: 200px;
+}
+.scoreinp{
+width: 30px;
+height: 25px;
+}
+.passinp{
+    height: 25px;
+    width: 30px;
+}
+.courseinp{
+    height: 25px;
+}
+.pg{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.g{
+    position: relative;
+    top: 10px;
+    left: 52px;
+}
+.xii{
+    position: relative;
+    top: 10px;
+    left: 75px;
+}
+.x{
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+.skills{
+    height: 20vh;
+    width:80vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: #dddada;
+    border-radius: 10px ;
+    box-shadow: 20px 20px 10px  black ;
+}

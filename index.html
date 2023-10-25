@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>candidature form</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-
+   
     <h1>personal details</h1>
     <div class="par">
     
     <div class="fields">
-     <label for="fname">first name:</label> 
+     <label for="fname" id="glitch">first name:</label> 
      <label for="lname">last name:</label> 
      <label for="phone">contact num:</label> 
      <label for="email">email:</label> 
@@ -27,17 +28,17 @@
     </div>
 
     <div class="fields">
-        <label for="fname">first name:</label> 
-        <label for="lname">last name:</label> 
-        <label for="phone">contact num:</label> 
-        <label for="email">email:</label> 
+        <label for="address">current address:</label> 
+        <label for="city">city:</label> 
+        <label for="state">state:</label> 
+        <label for="email">pincode:</label> 
        
        </div>
        <div class="inputs">
-       <input type="text" name="firstname" id="fname">
-        <input type="text" name="lastname" id="lname">
-        <input type="text" name="telephone" id="phone">
-        <input type="text" name="email" id="email">
+       <input type="text" name="adress" id="address">
+        <input type="text" name="city" id="city">
+        <input type="text" name="state" id="state">
+        <input type="text" name="pin" id="pin">
        </div>
        <div class="fields">
         <label for="dob">date of brith:</label> 
@@ -59,7 +60,106 @@
     
 </div>
 
-<h1>academics details</h1>
-<div></div>
+<h1 class="acc" id="acc">academics details</h1>
+<div class="acdiv">
+<div class="edu">
+    <h3>post graduation:</h3>
+    <div class="pg">
+    <label for="college">college:</label>
+    <input type="text" id="college" class="collegeinp">
+    <label for="course">course:</label>
+    <input type="text" id="course" class="courseinp">
+    <label for="markstype">score-type:</label>
+    <select name="" id="markstype" style="width: 70px; height:30px;">
+        <option value="gpa(/10)">gpa(/10):</option>
+        <option value="gpa(/5)">gpa(/5)</option>
+        <option value="per%">per%</option>
+    </select>
+    <label for="score">score:</label>
+    <input type="text" id="score" class="scoreinp">
+    <label for="pass">passout-year:</label>
+    <input type="text" id="pass" style="width: 50px;" class="passinp">
+     </div>
+ </div>
+ <div class="edu">
+    <h3>graduation:</h3>
+    <div class="g">
+    <label for="college">college:</label>
+    <input type="text" id="college" class="collegeinp">
+    <label for="course">course:</label>
+    <input type="text" id="course" class="courseinp">
+    <label for="markstype">score-type:</label>
+    <select name="" id="markstype" style=" height: 30px; width: 70px;">
+        <option value="gpa(/10)">gpa(/10):</option>
+        <option value="gpa(/5)">gpa(/5)</option>
+        <option value="per%">per%</option>
+    </select>
+    <label for="score">score:</label>
+    <input type="text" id="score" class="scoreinp">
+    <label for="pass">passout-year:</label>
+    <input type="text" id="pass" style="width: 50px;" class="passinp">
+    </div>
+ </div>
+ <div class="edu">
+    <h3>class XII:</h3>
+    <div class="xii">
+        <label for="college">college:</label>
+        <input type="text" id="college" class="collegeinp">
+        <label for="course">board:</label>
+        <input type="text" id="course" class="courseinp">
+        <label for="markstype">score-type:</label>
+        <select name="" id="markstype" style=" height: 30px; width: 70px;">
+            <option value="gpa(/10)">gpa(/10):</option>
+            <option value="gpa(/5)">gpa(/5)</option>
+            <option value="per%">per%</option>
+        </select>
+        <label for="score">score:</label>
+        <input type="text" id="score" class="scoreinp">
+        <label for="pass">passout-year:</label>
+        <input type="text" id="pass" style="width: 50px;" class="passinp">
+        </div>
+ </div>
+ <div class="edu">
+    <h3>class X:</h3>
+    <div class="x">
+        <label for="college">college:</label>
+        <input type="text" id="college" class="collegeinp">
+        <label for="course">board:</label>
+        <input type="text" id="course" class="courseinp">
+        <label for="markstype">score-type:</label>
+        <select name="" id="markstype" style=" height: 30px; width: 70px;">
+            <option value="gpa(/10)">gpa(/10):</option>
+            <option value="gpa(/5)">gpa(/5)</option>
+            <option value="per%">per%</option>
+        </select>
+        <label for="score">score:</label>
+        <input type="text" id="score" class="scoreinp">
+        <label for="pass">passout-year:</label>
+        <input type="text" id="pass" style="width: 50px;" class="passinp">
+        </div>
+ </div>   
+</div>
+
+<h1>skills</h1>
+<div class="skills">
+    <div class="prog skill">
+        <h3 style="font-size: 0.75em;">programming languages</h3>
+        <textarea name="pg" id="txt" class="textt" cols="30" rows="4" placeholder="ex:java,cpp,python"></textarea>
+    </div>
+    <div class="db skill">
+        <h3 style="font-size: 0.75em;">dbms :</h3>
+        <textarea name="db" id="txt2" class="textt" cols="30" rows="4" placeholder="ex:mysql,mongodb"></textarea>
+    </div>
+    <div class="fe skill">
+        <h3 style="font-size: 0.75em;">frontend :</h3>
+        <textarea name="fe" id="txt2" class="textt" cols="30" rows="4" placeholder="ex:html,css,react,angular"></textarea>
+    </div>
+    <div class="tools skill">
+        <h3 style="font-size: 0.75em;">tools :</h3>
+        <textarea name="tools" id="txt3" class="textt" cols="30" rows="4" placeholder="ex:git,figma,excel"></textarea>
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
