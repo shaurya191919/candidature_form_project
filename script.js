@@ -10,3 +10,4 @@ const textt=document.getElementsByClassName('textt')
 for (let i = 0; i < textt.length; i++) {
     textt[i].style.color = 'blue';
 }
+
